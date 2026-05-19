@@ -205,7 +205,7 @@ const DashboardPage = () => {
                       <span className="mr-5">较昨日</span>
                       {compareNum(
                         basicData.user_learn_today,
-                        basicData.user_learn_yesterday
+                        basicData.user_learn_yesterday,
                       )}
                     </div>
                   )}
@@ -310,7 +310,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[0] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[0].duration) / 1000
+                          Number(basicData.user_learn_top10[0].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -336,7 +336,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[1] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[1].duration) / 1000
+                          Number(basicData.user_learn_top10[1].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -362,7 +362,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[2] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[2].duration) / 1000
+                          Number(basicData.user_learn_top10[2].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -384,7 +384,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[3] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[3].duration) / 1000
+                          Number(basicData.user_learn_top10[3].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -406,7 +406,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[4] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[4].duration) / 1000
+                          Number(basicData.user_learn_top10[4].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -432,7 +432,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[5] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[5].duration) / 1000
+                          Number(basicData.user_learn_top10[5].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -454,7 +454,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[6] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[6].duration) / 1000
+                          Number(basicData.user_learn_top10[6].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -476,7 +476,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[7] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[7].duration) / 1000
+                          Number(basicData.user_learn_top10[7].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -498,7 +498,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[8] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[8].duration) / 1000
+                          Number(basicData.user_learn_top10[8].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -520,7 +520,7 @@ const DashboardPage = () => {
                     {basicData.user_learn_top10[9] && (
                       <div className={styles["item-time"]}>
                         {timeFormat(
-                          Number(basicData.user_learn_top10[9].duration) / 1000
+                          Number(basicData.user_learn_top10[9].duration) / 1000,
                         )}
                       </div>
                     )}
@@ -564,7 +564,7 @@ const DashboardPage = () => {
             <div className={styles["usage-guide"]}>
               <img className={styles["banner"]} src={banner} alt="" />
               <Link
-                to="https://faq.playeduos.com/opensource-maintenance-handbook/article/t08o2iHfLR"
+                to="https://faq.playeduos.com/opensource-handbook/article/wFymJ4SXcX"
                 target="blank"
                 className={styles["link"]}
               >
